@@ -1,0 +1,51 @@
+/* Container Styling */
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height to center vertically */
+  gap: 20px; /* Space between the buttons */
+  /* background: linear-gradient(135deg, #ece9e6 0%, #ffffff 100%); */
+}
+
+h1 {
+  color: #333;
+}
+.button {
+  width: 100px; /* Fixed width for square shape */
+  height: 100px; /* Fixed height for square shape */
+  border-radius: 12px; /* Optional: For slightly rounded corners */
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Specific Button Colors */
+#grey {
+  background-color: #b0bec5;
+}
+
+#yellow {
+  background-color: #ffff00;
+  color: #333;
+}
+
+#blue {
+  background-color: #42a5f5;
+}
+
+#red {
+  background-color: #ef5350;
+}
+
+/* Hover Effects */
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
